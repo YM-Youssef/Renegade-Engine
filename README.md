@@ -4,6 +4,7 @@
 
 
 • Features:
+
  -Fully custom (reflection, binary serialization, clean ECS, and an event-driven core) all written with minimal dependencies and zero editor bloat. 
 
 • Highlights:
@@ -21,11 +22,11 @@
 
 • Tech Stack:
 
-Language: C++20 
+-Language: C++20 
 
-Platform: Windows (Linux coming later)
+-Platform: Windows (Linux coming later)
 
-Editor: Visual Studio 2022
+-Editor: Visual Studio 2022
 
 
 • Dependencies:
