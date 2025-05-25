@@ -1,22 +1,25 @@
-Renegade Engine A fast, modular C++20 game engine built from scratch for flexibility, performance, and full control.
+• Renegade Engine: 
+
+- A fast, modular C++20 game engine built from scratch for flexibility, performance, and full control.
 
 
-Features fully custom: reflection, binary serialization, clean ECS, and an event-driven core — all written with minimal dependencies and zero editor bloat. 
+• Features:
+ -Fully custom (reflection, binary serialization, clean ECS, and an event-driven core) all written with minimal dependencies and zero editor bloat. 
 
-Highlights
+• Highlights:
 
-Entity-Component System: Lightweight, scalable design.
+-Entity-Component System: Lightweight, scalable design.
 
-Reflection System: Static-init startup tool — no RTTI, no .gen files, minimal overhead. 
+-Reflection System: Static-init startup tool — no RTTI, no .gen files, minimal overhead. 
 
-Binary Serialization: Pointer-safe, editor-ready, supports future type expansions by default. 
+-Binary Serialization: Pointer-safe, editor-ready, supports future type expansions by default. 
 
-Event System: Callback-based, template-based, type-safe, and fully decoupled.
+-Event System: Callback-based, template-based, type-safe, and fully decoupled.
 
-Editor Tools: ImGui-based inspector UI powered by real-time reflection.
+-Editor Tools: ImGui-based inspector UI powered by real-time reflection.
 
 
-Tech Stack
+• Tech Stack:
 
 Language: C++20 
 
@@ -25,24 +28,36 @@ Platform: Windows (Linux coming later)
 Editor: Visual Studio 2022
 
 
-Dependencies: ImGui, spdlog, stb, assimp, GLFW, GLAD
+• Dependencies:
+
+ -ImGui
+ -spdlog
+ -stb
+ -assimp
+ -GLFW
+ -GLAD
 
 
-In Progress
+• In Progress
 
-3D OpenGL Renderer (Deferred pipeline) 
+-3D OpenGL Renderer (Deferred pipeline) 
 
-Bullet Physics Integration 
+-Bullet Physics Integration 
 
-Asset Management (with automatic unloading)
+-Asset Management (with automatic unloading)
 
-ECS Memory Pooling
+-ECS Memory Pooling
 
-Hot-reloading via DLLs
+-Hot-reloading via DLLs
 
-Audio System
+-Audio System
 
 
-Why?
+• Why?
 
-Because most engines are either bloated or inflexible. Renegade is for devs who want real control: minimal layers, clean APIs, and full understanding of what’s under the hood. License: Apache 2.0.
+-Because most engines are either bloated or inflexible.
+-Renegade is for devs who want real control: minimal layers, clean APIs, and full understanding of what’s under the hood.
+
+
+• License:
+ -Apache 2.0.
