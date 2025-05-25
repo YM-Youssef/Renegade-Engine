@@ -26,7 +26,7 @@ namespace RG
 
 	int ReflectionManager::Add(ReflectedTypeData* a)
 	{
-		//initialize lists as int, safety from unkown static-init order and UB, on static defintion lines to avoid multiple assignments of value
+		//initialize lists as vector*, for safety from unkown static-init order and UB, on static defintion lines to avoid multiple assignments of value
 		static std::vector<BaseSceneObject*>*   types              = s_types              = new std::vector<BaseSceneObject*>();
 		static std::vector<ReflectedTypeData*>* reflectionDataList = s_reflectionDataList = new std::vector<ReflectedTypeData*>();
 
